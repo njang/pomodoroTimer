@@ -1,3 +1,5 @@
+Follow this [link](https://njang.github.io/pomodoroTimer/) to use the timer.
+
 # Build a Pomodoro Clock
 
 * Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/aNyxXR/.
