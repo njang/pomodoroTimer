@@ -1,4 +1,4 @@
-Follow this [link](https://njang.github.io/pomodoroTimer/) to use the timer.
+Follow this ([link](https://njang.github.io/pomodoroTimer/)) to use the timer.
 
 # Build a Pomodoro Clock
 
