@@ -44,7 +44,10 @@ const timer = (duration) => {
 		secondString = secondString.join('');
 
 		if (duration <= 0) {
+			alert('coundown over!');
 			clearInterval(countDown);
+			$('#session').html(sessionDuration + ":00");
+			$('#session').attr({'disabled': false});
 		}
 		$('#session').html(`${minute}:${secondString}`);
 		duration--;	
