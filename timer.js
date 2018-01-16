@@ -2,7 +2,7 @@
 const secInMin = 60;
 const increment = 100; // incremend in milliseconds. Reduce it for faster countdown during development.
 
-let sessionDuration = 9;
+let sessionDuration = 3;
 let breakDuration = 5;
 
 (() => {
@@ -58,6 +58,8 @@ $(document).ready("#button").click(function(event) {
 			sessionDuration -= 1;
 			break;
 		case "session":
+			// disable the button to prevent multiple simultaneous countdowns.
+			$('#session').attr({'disabled': true});
 			timer(sessionDuration);
 			break;
 		case "sessionPlus":
